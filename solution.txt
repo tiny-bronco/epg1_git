@@ -1,0 +1,24 @@
+-git init
+-git clone <addres repo>
+-git branch hw-s13186
+-git checkout hw-13186
+-git branch --set upstream-to=origin/master
+-git rebase hw-s13186 rebase-me
+- fatal error:P
+-git config --global user.email
+-git config --global user.name
+
+-git rebase --abort
+-git rebase hw-s13186 rebase-me
+
+-git checkout hw-s13186
+-git merge d0a560d
+
+-git merge origin/merge-me
+-git mergetool
+
+-placz i lzy z vimdiffem
+
+-git commit -m "merge change"
+-git clean-f
+-nano solution.txt
