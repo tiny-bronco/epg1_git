@@ -22,3 +22,7 @@
 -git commit -m "merge change"
 -git clean-f
 -nano solution.txt
+
+-git checkout -m README.md
+
+-git mergetool
